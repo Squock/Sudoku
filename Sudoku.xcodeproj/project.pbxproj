@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F103FD52A16C8748B6219C0 /* Pods_Sudoku_SudokuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 118B2173B0B787778BDF82B2 /* Pods_Sudoku_SudokuUITests.framework */; };
+		225C56B1276E035C00858223 /* SudokuDI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C56B0276E035C00858223 /* SudokuDI.swift */; };
+		225C56B6276E052F00858223 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C56B5276E052F00858223 /* MainTabView.swift */; };
+		225C56BA276E0B1700858223 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C56B9276E0B1700858223 /* Coordinator.swift */; };
+		225C56BC276E0B4D00858223 /* CoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C56BB276E0B4D00858223 /* CoordinatorFactory.swift */; };
+		225C56C2276E136C00858223 /* FirstTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C56C1276E136C00858223 /* FirstTabCoordinator.swift */; };
+		225C56C4276E15F800858223 /* SecondTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C56C3276E15F800858223 /* SecondTabCoordinator.swift */; };
+		225C56C6276E160700858223 /* ThirdTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C56C5276E160700858223 /* ThirdTabCoordinator.swift */; };
+		225C56C9276E187200858223 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C56C8276E187200858223 /* SceneFactory.swift */; };
+		225C56CB276E199E00858223 /* SudokuAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225C56CA276E199E00858223 /* SudokuAssembly.swift */; };
+		2289F327276DF24200ADABCC /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2289F326276DF24200ADABCC /* ButtonStyle.swift */; };
+		2289F328276DF24200ADABCC /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2289F326276DF24200ADABCC /* ButtonStyle.swift */; };
+		228AD71C286E89C0002D77CF /* ScenesFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228AD71B286E89C0002D77CF /* ScenesFactoryProtocol.swift */; };
+		228AD721286F5DF9002D77CF /* FirstTabViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228AD720286F5DF9002D77CF /* FirstTabViewComponent.swift */; };
 		228C46F2276D9AAB00F7A5BE /* SudokuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228C46F1276D9AAB00F7A5BE /* SudokuApp.swift */; };
 		228C46F4276D9AAB00F7A5BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228C46F3276D9AAB00F7A5BE /* ContentView.swift */; };
 		228C46F6276D9AAD00F7A5BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 228C46F5276D9AAD00F7A5BE /* Assets.xcassets */; };
@@ -16,6 +30,20 @@
 		228C4708276D9AAD00F7A5BE /* SudokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228C4707276D9AAD00F7A5BE /* SudokuTests.swift */; };
 		228C4712276D9AAD00F7A5BE /* SudokuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228C4711276D9AAD00F7A5BE /* SudokuUITests.swift */; };
 		228C4714276D9AAD00F7A5BE /* SudokuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228C4713276D9AAD00F7A5BE /* SudokuUITestsLaunchTests.swift */; };
+		2291EEB127772D5F000B6A78 /* FirstTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291EEB027772D5F000B6A78 /* FirstTabViewController.swift */; };
+		2291EEB327772EBE000B6A78 /* FirstTabState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291EEB227772EBE000B6A78 /* FirstTabState.swift */; };
+		22DB56C3276F2B4200365EA7 /* FirstTabCoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB56C2276F2B4200365EA7 /* FirstTabCoordinatorFactory.swift */; };
+		22DB56C5276F2B5700365EA7 /* SecondTabCoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB56C4276F2B5700365EA7 /* SecondTabCoordinatorFactory.swift */; };
+		22DB56C7276F2B6400365EA7 /* ThirdTabCoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB56C6276F2B6400365EA7 /* ThirdTabCoordinatorFactory.swift */; };
+		22DB56C9276F50F000365EA7 /* UIAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DB56C8276F50F000365EA7 /* UIAssembly.swift */; };
+		22DC48BE277113EB00F7A8C7 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC48BD277113EB00F7A8C7 /* AppState.swift */; };
+		22DC48F32771195700F7A8C7 /* FirstTabViewConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC48F22771195700F7A8C7 /* FirstTabViewConnector.swift */; };
+		22DC48F5277119AA00F7A8C7 /* FirstTabView + Props.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC48F4277119AA00F7A8C7 /* FirstTabView + Props.swift */; };
+		22DC48F727711B6400F7A8C7 /* AppAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC48F627711B6400F7A8C7 /* AppAction.swift */; };
+		22DC48F92771214800F7A8C7 /* SudokuEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DC48F82771214800F7A8C7 /* SudokuEnvironment.swift */; };
+		22EE5C982770C7EB00F3C1DD /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EE5C972770C7EB00F3C1DD /* FirstTabView.swift */; };
+		31C2B1FD420F793F4F46F399 /* Pods_Sudoku.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C50E391AA1B3A22E764A8816 /* Pods_Sudoku.framework */; };
+		9C3FBCBC5FED4FA2088BEF53 /* Pods_SudokuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A6C128724C3355B6079C67 /* Pods_SudokuTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +64,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		118B2173B0B787778BDF82B2 /* Pods_Sudoku_SudokuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sudoku_SudokuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		225C56B0276E035C00858223 /* SudokuDI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuDI.swift; sourceTree = "<group>"; };
+		225C56B5276E052F00858223 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		225C56B9276E0B1700858223 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		225C56BB276E0B4D00858223 /* CoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorFactory.swift; sourceTree = "<group>"; };
+		225C56C1276E136C00858223 /* FirstTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabCoordinator.swift; sourceTree = "<group>"; };
+		225C56C3276E15F800858223 /* SecondTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabCoordinator.swift; sourceTree = "<group>"; };
+		225C56C5276E160700858223 /* ThirdTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabCoordinator.swift; sourceTree = "<group>"; };
+		225C56C8276E187200858223 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
+		225C56CA276E199E00858223 /* SudokuAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuAssembly.swift; sourceTree = "<group>"; };
+		2289F326276DF24200ADABCC /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		228AD71B286E89C0002D77CF /* ScenesFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScenesFactoryProtocol.swift; sourceTree = "<group>"; };
+		228AD720286F5DF9002D77CF /* FirstTabViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewComponent.swift; sourceTree = "<group>"; };
 		228C46EE276D9AAB00F7A5BE /* Sudoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sudoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		228C46F1276D9AAB00F7A5BE /* SudokuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuApp.swift; sourceTree = "<group>"; };
 		228C46F3276D9AAB00F7A5BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +89,26 @@
 		228C470D276D9AAD00F7A5BE /* SudokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SudokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		228C4711276D9AAD00F7A5BE /* SudokuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuUITests.swift; sourceTree = "<group>"; };
 		228C4713276D9AAD00F7A5BE /* SudokuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2291EEB027772D5F000B6A78 /* FirstTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewController.swift; sourceTree = "<group>"; };
+		2291EEB227772EBE000B6A78 /* FirstTabState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabState.swift; sourceTree = "<group>"; };
+		22DB56C2276F2B4200365EA7 /* FirstTabCoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabCoordinatorFactory.swift; sourceTree = "<group>"; };
+		22DB56C4276F2B5700365EA7 /* SecondTabCoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabCoordinatorFactory.swift; sourceTree = "<group>"; };
+		22DB56C6276F2B6400365EA7 /* ThirdTabCoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabCoordinatorFactory.swift; sourceTree = "<group>"; };
+		22DB56C8276F50F000365EA7 /* UIAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIAssembly.swift; sourceTree = "<group>"; };
+		22DC48BD277113EB00F7A8C7 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		22DC48F22771195700F7A8C7 /* FirstTabViewConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabViewConnector.swift; sourceTree = "<group>"; };
+		22DC48F4277119AA00F7A8C7 /* FirstTabView + Props.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FirstTabView + Props.swift"; sourceTree = "<group>"; };
+		22DC48F627711B6400F7A8C7 /* AppAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAction.swift; sourceTree = "<group>"; };
+		22DC48F82771214800F7A8C7 /* SudokuEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuEnvironment.swift; sourceTree = "<group>"; };
+		22EE5C972770C7EB00F3C1DD /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		4D925B7D123D6553FC08CF7C /* Pods-Sudoku-SudokuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sudoku-SudokuUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sudoku-SudokuUITests/Pods-Sudoku-SudokuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D1F49B34BF937FB498AA6FF /* Pods-SudokuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuTests.debug.xcconfig"; path = "Target Support Files/Pods-SudokuTests/Pods-SudokuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DFED4E4693255A5120FAC7E /* Pods-Sudoku-SudokuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sudoku-SudokuUITests.release.xcconfig"; path = "Target Support Files/Pods-Sudoku-SudokuUITests/Pods-Sudoku-SudokuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E9862292C606E3E6848E4EC /* Pods-SudokuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuTests.release.xcconfig"; path = "Target Support Files/Pods-SudokuTests/Pods-SudokuTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D3609908A5173F384D1216A /* Pods-Sudoku.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sudoku.debug.xcconfig"; path = "Target Support Files/Pods-Sudoku/Pods-Sudoku.debug.xcconfig"; sourceTree = "<group>"; };
+		C50E391AA1B3A22E764A8816 /* Pods_Sudoku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sudoku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88BE2125E93306DA61ACE6A /* Pods-Sudoku.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sudoku.release.xcconfig"; path = "Target Support Files/Pods-Sudoku/Pods-Sudoku.release.xcconfig"; sourceTree = "<group>"; };
+		D4A6C128724C3355B6079C67 /* Pods_SudokuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudokuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C2B1FD420F793F4F46F399 /* Pods_Sudoku.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3FBCBC5FED4FA2088BEF53 /* Pods_SudokuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,12 +132,156 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F103FD52A16C8748B6219C0 /* Pods_Sudoku_SudokuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		225C56AF276E032C00858223 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				225C56B0276E035C00858223 /* SudokuDI.swift */,
+				225C56CA276E199E00858223 /* SudokuAssembly.swift */,
+				22DC48F82771214800F7A8C7 /* SudokuEnvironment.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		225C56B2276E041F00858223 /* Assembler */ = {
+			isa = PBXGroup;
+			children = (
+				22DB56C8276F50F000365EA7 /* UIAssembly.swift */,
+			);
+			path = Assembler;
+			sourceTree = "<group>";
+		};
+		225C56B3276E044A00858223 /* UserStories */ = {
+			isa = PBXGroup;
+			children = (
+				22EE5C962770C7C400F3C1DD /* FirstTabView */,
+				225C56B4276E04F100858223 /* MainView */,
+			);
+			path = UserStories;
+			sourceTree = "<group>";
+		};
+		225C56B4276E04F100858223 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				22DC48FA277124FD00F7A8C7 /* View */,
+				225C56B5276E052F00858223 /* MainTabView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		225C56B7276E0AF600858223 /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				225C56C7276E185500858223 /* Factories */,
+				225C56BD276E0B9700858223 /* Coordinators */,
+				225C56B8276E0B0A00858223 /* Protocols */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		225C56B8276E0B0A00858223 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				225C56B9276E0B1700858223 /* Coordinator.swift */,
+				22DB56C2276F2B4200365EA7 /* FirstTabCoordinatorFactory.swift */,
+				22DB56C4276F2B5700365EA7 /* SecondTabCoordinatorFactory.swift */,
+				22DB56C6276F2B6400365EA7 /* ThirdTabCoordinatorFactory.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		225C56BD276E0B9700858223 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				225C56C0276E0BBA00858223 /* ThirdTabCoordinator */,
+				225C56BF276E0BAD00858223 /* SecondTabCoordinator */,
+				225C56BE276E0BA000858223 /* FirstTabCoordinator */,
+				225C56BB276E0B4D00858223 /* CoordinatorFactory.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		225C56BE276E0BA000858223 /* FirstTabCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				225C56C1276E136C00858223 /* FirstTabCoordinator.swift */,
+			);
+			path = FirstTabCoordinator;
+			sourceTree = "<group>";
+		};
+		225C56BF276E0BAD00858223 /* SecondTabCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				225C56C3276E15F800858223 /* SecondTabCoordinator.swift */,
+			);
+			path = SecondTabCoordinator;
+			sourceTree = "<group>";
+		};
+		225C56C0276E0BBA00858223 /* ThirdTabCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				225C56C5276E160700858223 /* ThirdTabCoordinator.swift */,
+			);
+			path = ThirdTabCoordinator;
+			sourceTree = "<group>";
+		};
+		225C56C7276E185500858223 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				228AD71A286E8958002D77CF /* Scenes */,
+				225C56C8276E187200858223 /* SceneFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		2289F323276DF20B00ADABCC /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				225C56B3276E044A00858223 /* UserStories */,
+				225C56B2276E041F00858223 /* Assembler */,
+				2289F324276DF21C00ADABCC /* UI */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		2289F324276DF21C00ADABCC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2289F325276DF22400ADABCC /* Button */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2289F325276DF22400ADABCC /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				2289F326276DF24200ADABCC /* ButtonStyle.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		228AD71A286E8958002D77CF /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				228AD71B286E89C0002D77CF /* ScenesFactoryProtocol.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		228AD71F286F5DDF002D77CF /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				228AD720286F5DF9002D77CF /* FirstTabViewComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		228C46E5276D9AAB00F7A5BE = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +289,8 @@
 				228C4706276D9AAD00F7A5BE /* SudokuTests */,
 				228C4710276D9AAD00F7A5BE /* SudokuUITests */,
 				228C46EF276D9AAB00F7A5BE /* Products */,
+				E9F0A294820ED745BFFB8912 /* Pods */,
+				46E947C4940030126D13D118 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +307,10 @@
 		228C46F0276D9AAB00F7A5BE /* Sudoku */ = {
 			isa = PBXGroup;
 			children = (
+				22DC48BC277113A100F7A8C7 /* DomainLayer */,
+				225C56B7276E0AF600858223 /* ApplicationLayer */,
+				225C56AF276E032C00858223 /* DI */,
+				2289F323276DF20B00ADABCC /* PresentationLayer */,
 				228C46F1276D9AAB00F7A5BE /* SudokuApp.swift */,
 				228C46F3276D9AAB00F7A5BE /* ContentView.swift */,
 				228C46F5276D9AAD00F7A5BE /* Assets.xcassets */,
@@ -133,6 +346,74 @@
 			path = SudokuUITests;
 			sourceTree = "<group>";
 		};
+		22DC48BC277113A100F7A8C7 /* DomainLayer */ = {
+			isa = PBXGroup;
+			children = (
+				22DC48BD277113EB00F7A8C7 /* AppState.swift */,
+				22DC48F627711B6400F7A8C7 /* AppAction.swift */,
+				2291EEB227772EBE000B6A78 /* FirstTabState.swift */,
+			);
+			path = DomainLayer;
+			sourceTree = "<group>";
+		};
+		22DC48F02771192800F7A8C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22EE5C972770C7EB00F3C1DD /* FirstTabView.swift */,
+				22DC48F4277119AA00F7A8C7 /* FirstTabView + Props.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22DC48F12771193000F7A8C7 /* Connector */ = {
+			isa = PBXGroup;
+			children = (
+				22DC48F22771195700F7A8C7 /* FirstTabViewConnector.swift */,
+			);
+			path = Connector;
+			sourceTree = "<group>";
+		};
+		22DC48FA277124FD00F7A8C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22EE5C962770C7C400F3C1DD /* FirstTabView */ = {
+			isa = PBXGroup;
+			children = (
+				2291EEB027772D5F000B6A78 /* FirstTabViewController.swift */,
+				228AD71F286F5DDF002D77CF /* Component */,
+				22DC48F12771193000F7A8C7 /* Connector */,
+				22DC48F02771192800F7A8C7 /* View */,
+			);
+			path = FirstTabView;
+			sourceTree = "<group>";
+		};
+		46E947C4940030126D13D118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C50E391AA1B3A22E764A8816 /* Pods_Sudoku.framework */,
+				118B2173B0B787778BDF82B2 /* Pods_Sudoku_SudokuUITests.framework */,
+				D4A6C128724C3355B6079C67 /* Pods_SudokuTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9F0A294820ED745BFFB8912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D3609908A5173F384D1216A /* Pods-Sudoku.debug.xcconfig */,
+				C88BE2125E93306DA61ACE6A /* Pods-Sudoku.release.xcconfig */,
+				4D925B7D123D6553FC08CF7C /* Pods-Sudoku-SudokuUITests.debug.xcconfig */,
+				8DFED4E4693255A5120FAC7E /* Pods-Sudoku-SudokuUITests.release.xcconfig */,
+				6D1F49B34BF937FB498AA6FF /* Pods-SudokuTests.debug.xcconfig */,
+				8E9862292C606E3E6848E4EC /* Pods-SudokuTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +421,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228C4717276D9AAD00F7A5BE /* Build configuration list for PBXNativeTarget "Sudoku" */;
 			buildPhases = (
+				9F0B381B1F138A17592EB4FE /* [CP] Check Pods Manifest.lock */,
 				228C46EA276D9AAB00F7A5BE /* Sources */,
 				228C46EB276D9AAB00F7A5BE /* Frameworks */,
 				228C46EC276D9AAB00F7A5BE /* Resources */,
@@ -157,6 +439,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228C471A276D9AAD00F7A5BE /* Build configuration list for PBXNativeTarget "SudokuTests" */;
 			buildPhases = (
+				C38C0BC71A7B9CA32F61CBA8 /* [CP] Check Pods Manifest.lock */,
 				228C46FF276D9AAD00F7A5BE /* Sources */,
 				228C4700276D9AAD00F7A5BE /* Frameworks */,
 				228C4701276D9AAD00F7A5BE /* Resources */,
@@ -175,6 +458,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 228C471D276D9AAD00F7A5BE /* Build configuration list for PBXNativeTarget "SudokuUITests" */;
 			buildPhases = (
+				2BFD753EDA83516CE92C68CC /* [CP] Check Pods Manifest.lock */,
 				228C4709276D9AAD00F7A5BE /* Sources */,
 				228C470A276D9AAD00F7A5BE /* Frameworks */,
 				228C470B276D9AAD00F7A5BE /* Resources */,
@@ -258,14 +542,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BFD753EDA83516CE92C68CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sudoku-SudokuUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F0B381B1F138A17592EB4FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sudoku-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C38C0BC71A7B9CA32F61CBA8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SudokuTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		228C46EA276D9AAB00F7A5BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2291EEB327772EBE000B6A78 /* FirstTabState.swift in Sources */,
+				225C56BA276E0B1700858223 /* Coordinator.swift in Sources */,
+				22DB56C5276F2B5700365EA7 /* SecondTabCoordinatorFactory.swift in Sources */,
 				228C46FB276D9AAD00F7A5BE /* Persistence.swift in Sources */,
+				22DC48F32771195700F7A8C7 /* FirstTabViewConnector.swift in Sources */,
+				22EE5C982770C7EB00F3C1DD /* FirstTabView.swift in Sources */,
+				225C56C6276E160700858223 /* ThirdTabCoordinator.swift in Sources */,
+				22DC48F727711B6400F7A8C7 /* AppAction.swift in Sources */,
+				225C56B1276E035C00858223 /* SudokuDI.swift in Sources */,
+				22DB56C7276F2B6400365EA7 /* ThirdTabCoordinatorFactory.swift in Sources */,
+				22DB56C3276F2B4200365EA7 /* FirstTabCoordinatorFactory.swift in Sources */,
+				228AD71C286E89C0002D77CF /* ScenesFactoryProtocol.swift in Sources */,
+				225C56C2276E136C00858223 /* FirstTabCoordinator.swift in Sources */,
 				228C46F4276D9AAB00F7A5BE /* ContentView.swift in Sources */,
+				22DB56C9276F50F000365EA7 /* UIAssembly.swift in Sources */,
+				22DC48BE277113EB00F7A8C7 /* AppState.swift in Sources */,
+				225C56C9276E187200858223 /* SceneFactory.swift in Sources */,
 				228C46FE276D9AAD00F7A5BE /* Sudoku.xcdatamodeld in Sources */,
+				225C56B6276E052F00858223 /* MainTabView.swift in Sources */,
+				225C56C4276E15F800858223 /* SecondTabCoordinator.swift in Sources */,
+				22DC48F92771214800F7A8C7 /* SudokuEnvironment.swift in Sources */,
+				225C56CB276E199E00858223 /* SudokuAssembly.swift in Sources */,
+				2289F327276DF24200ADABCC /* ButtonStyle.swift in Sources */,
+				228AD721286F5DF9002D77CF /* FirstTabViewComponent.swift in Sources */,
+				2291EEB127772D5F000B6A78 /* FirstTabViewController.swift in Sources */,
+				225C56BC276E0B4D00858223 /* CoordinatorFactory.swift in Sources */,
+				22DC48F5277119AA00F7A8C7 /* FirstTabView + Props.swift in Sources */,
 				228C46F2276D9AAB00F7A5BE /* SudokuApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +651,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2289F328276DF24200ADABCC /* ButtonStyle.swift in Sources */,
 				228C4708276D9AAD00F7A5BE /* SudokuTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,6 +799,7 @@
 		};
 		228C4718276D9AAD00F7A5BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3609908A5173F384D1216A /* Pods-Sudoku.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +828,7 @@
 		};
 		228C4719276D9AAD00F7A5BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C88BE2125E93306DA61ACE6A /* Pods-Sudoku.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -477,6 +857,7 @@
 		};
 		228C471B276D9AAD00F7A5BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D1F49B34BF937FB498AA6FF /* Pods-SudokuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -501,6 +882,7 @@
 		};
 		228C471C276D9AAD00F7A5BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E9862292C606E3E6848E4EC /* Pods-SudokuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -525,6 +907,7 @@
 		};
 		228C471E276D9AAD00F7A5BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D925B7D123D6553FC08CF7C /* Pods-Sudoku-SudokuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +930,7 @@
 		};
 		228C471F276D9AAD00F7A5BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DFED4E4693255A5120FAC7E /* Pods-Sudoku-SudokuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

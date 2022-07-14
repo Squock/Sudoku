@@ -6,6 +6,7 @@
 //
 
 import CoreData
+import UDF
 
 struct PersistenceController {
     static let shared = PersistenceController()
@@ -35,6 +36,9 @@ struct PersistenceController {
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }
+        //let sudokuDI = DIContainer.shared.sudokuDI
+        //let coordinator = sudokuDI.mainCoordinator()
+        //coordinator.start(sudokuDI: sudokuDI)
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
